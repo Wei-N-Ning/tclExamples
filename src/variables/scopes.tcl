@@ -1,5 +1,5 @@
 
-;# to simulate instance-method and instance-attributes
+;# to simulate instance-method and instance attributes
 proc localState {} {
     ;# to define local state that acts like instance attributes
     set foo 1001
