@@ -31,6 +31,11 @@ proc foreachMatch {} {
 }
 
 
+proc stringLength {s} {
+    return [string length $s]
+}
+
+
 proc run {} {
     ;# compareEmptyStrings
     ;# compareSingleCharacter

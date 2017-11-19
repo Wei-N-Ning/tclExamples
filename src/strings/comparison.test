@@ -1,0 +1,15 @@
+
+package require tcltest
+namespace import ::tcltest::*
+
+source comparison.tcl
+
+
+test stringLength_givenEmptyString_expectZero {
+    Test: [stringLength ""] == 0
+} -body {
+    stringLength ""
+} -result 0
+
+
+cleanupTests
