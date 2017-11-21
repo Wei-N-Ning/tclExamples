@@ -1,0 +1,4 @@
+# python
+alias py="/usr/bin/env python"
+# tcl
+alias tcldev="cd /work/dev/tcl/github.com"

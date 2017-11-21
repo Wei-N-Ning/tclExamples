@@ -1,0 +1,36 @@
+package require tcltest
+namespace import ::tcltest::*
+
+source dict_algo.tcl
+
+
+test createDict_expectKeysAndValues {
+    Test: expect key-value pair
+} -body {
+    set productNames {"imp" "archville"}
+    set actionNames {"acid" "aci" "ac" "a"}
+    set d [createDict $productNames $actionNames]
+    if {[dict get $d "imp"] != "acid"} {
+        return 0
+    }
+    if {[dict get $d "archville"] != "aci"} {
+        return 0
+    }
+    return 1
+} -result 1
+
+
+test sprintDict_expectString {
+    Test: expect string contents
+} -body {
+    set d [createDict {"damage" "barrel.size"} {35 7.62}]
+    set s [sprintDict $d]
+    puts $s
+    if {[string length $s] > 0} {
+        return 1
+    }
+    return 0
+} -result 1
+
+
+cleanupTests
