@@ -1,0 +1,8 @@
+https://gist.github.com/Fluidbyte/6294378
+
+TCL-Expect scripts are an amazingly easy way to script out laborious tasks in the shell when you need to be interactive with the console. Think of them as a "macro" or way to programmaticly step through a process you would run by hand. They are similar to shell scripts but utilize the .tcl extension and a different #! call.
+
+Setup Your Script
+The first step, similar to writing a bash script, is to tell the script what it's executing under. For expect we use the following:
+
+#!/usr/bin/expect
