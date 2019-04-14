@@ -1,0 +1,6 @@
+
+
+https://en.wikipedia.org/wiki/Expect
+
+Pexpect (Python-expect) looks interesting and popular
+
