@@ -6,3 +6,12 @@ Setup Your Script
 The first step, similar to writing a bash script, is to tell the script what it's executing under. For expect we use the following:
 
 #!/usr/bin/expect
+
+
+further read: 
+https://www2.lib.uchicago.edu/keith/tcl-course/topics/expect.html
+https://wiki.tcl-lang.org/page/Expect
+https://www.tcl.tk/man/expect5.31/expect.1.html
+expect examples
+https://wiki.tcl-lang.org/page/Expect+Examples
+
